@@ -325,3 +325,80 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.contact-form {
+  padding: 120px 24px;
+  width: 375px;
+  height: 844px;
+  left: 0px;
+  top: 6038px;
+}
+
+.primary-text {
+  position: static;
+  width: 327px;
+  height: 216px;
+  left: 0px;
+  top: 0px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+}
+
+.form-container {
+  align-items: center;
+  padding: 0px;
+  position: static;
+  width: 327px;
+  height: 330px;
+  left: 24px;
+  top: 394px; 
+  padding-bottom: 80px;
+  padding-top: 50px;
+
+}
+
+.input-text {
+display: inline-block;
+height: 18px;
+left: 16px;
+right: 16px;
+top: calc(50% - 18px/2);
+font-size: 20px;
+line-height: 24px;
+font-style: normal;
+font-weight: normal;
+color: #979493;
+margin-left: 15px;
+}
+
+#email {
+  width: 327px;
+  border: none;
+  border-bottom: solid 2px grey;
+  height: 1px;
+  top: 47px;
+  background: #DBD8D7;
+}
+
+#contact-text {
+  width: 332px;
+  height: 185px;
+  background: #FBF8F7;
+}
+
+.submit-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  width: 131px;
+  height: 48px;
+  left: 98px;
+  background: #FF6B00;
+  margin: 24px auto;
+}
