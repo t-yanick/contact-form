@@ -374,7 +374,7 @@ li {
   margin-left: 15px;
 }
 
-#email {
+#email, #fname {
   width: 327px;
   border: none;
   border-bottom: solid 2px grey;
