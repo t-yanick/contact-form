@@ -6,7 +6,7 @@
 
 > Portfolio Contact Form
 
-![screenshot](./images/screenshot.png)
+![screenshot](./media/png/screenshot.png)
 
 A contact form for a portfolio website.
 
