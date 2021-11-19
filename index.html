@@ -290,24 +290,34 @@
         </div>
       </div>
 
-      <div class="contact-form">
-        <section class="contact-form-section">
-          <h1 class="primary-text">
-            I'm always interested in hearing about new projects, so if you'd like to chat please get in
-          </h1>
-            <form class="form-container">
-              <label for="fname" class="input-text">Full name</label>
-              <br><br>
-              <input type="text" id="fname" name="fname"> <br><br>
-              <label for="email" class="input-text">Email address</label>
-              <br><br>
-              <input type="email" id="email" name="email"> <br>
-              <br>
-              <input type="text" id="contact-text" name="contact-text" value="Enter text here"> 
-              <br><br>
-              <input type="submit" class="submit-btn" value="Get in touch"><br>
-            </form>
-        </section>
+      <div id="contact-form">
+        <h2>
+          I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+        </h2>
+        <form action="https://formspree.io/f/mwkagzpj" method="POST">
+          <input 
+            type="text" 
+            id="fullname" 
+            name="fullname"
+            placeholder="Full Name"
+            maxlength="30"
+            required
+          />
+          <input 
+            type="email" 
+            id="email" 
+            name="email"
+            placeholder="Email address"
+            required
+          />
+          <textarea 
+            name="message" 
+            placeholder="Enter text here"
+            maxlength="500"
+            required>
+          </textarea> 
+          <button type="submit" class="submit-btn btn-centered">Get in touch</button>
+        </form>
       </div>
     </main>
 
