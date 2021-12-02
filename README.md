@@ -73,3 +73,4 @@ You are contributing contribute the code back to the official coolapp repo, but 
 Is N' the same hash as N? Why or why not?
 
 Commiting A
+Comiting B
